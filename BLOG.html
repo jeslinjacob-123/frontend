@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Journeys Blog</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+ <h1>Welcome to Life Journey</h1>
+   <p>Sharing real stories, reflections, and lessons from life's journey.</p>
+    <nav>
+            <a href="#books">Books</a> |
+            <a href="#feedback">Feedback</a> |
+            <a href="#blog-types">Blog Types</a> |
+            <a href="#social-media">Social Media</a>
+        </nav>
+    </header>
+
+    <!-- Books Table Section -->
+    <section id="books">
+        <h2>Books That Inspire</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The Art of Happiness</td>
+                    <td>Dalai Lama</td>
+                    <td>Philosophy</td>
+                </tr>
+                <tr>
+                    <td>Becoming</td>
+                    <td>Michelle Obama</td>
+                    <td>Memoir</td>
+                </tr>
+                <tr>
+                    <td>The Power of Now</td>
+                    <td>Eckhart Tolle</td>
+                    <td>Self-Help</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Feedback Form Section -->
+    <section id="feedback">
+        <h2>Feedback Form</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4"></textarea><br><br>
+
+            <input type="submit" value="Submit Feedback">
+        </form>
+    </section>
+
+    <!-- Blog Types Section -->
+    <section id="blog-types">
+        <h2>Types of Blogs Available</h2>
+        <ul>
+                                                                                                                                                                                                        <li>Personal Growth</li>
+                                                                                                                                                                                                        <li>Travel & Culture</li>
+                                                                                                                                                                                                        <li>Mindfulness</li>
+                                                                                                                                                                                                        <li>Health & Wellness</li>
+                                                                                                                                                                                                        <li>Life Lessons</li>
+        </ul>
+    </section>
+
+    <!-- Social Media Links Section -->
+    <section id="social-media">
+        <h2>Follow Us</h2>
+        <p>Connect with us on social media:</p>
+        <ul>
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy;  Created by Jeslin Jacob, <span id="year"></span></p>
+    </footer>
+
+    <!-- JavaScript to set current year -->
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>

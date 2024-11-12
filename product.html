@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <style>
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Our Product Showcase</h1>
+        <p>Explore our curated collection of unique handcrafted items.</p>
+    </header>
+    <nav>
+        <a href="#products">Products</a> | 
+        <a href="#media">Media</a> | 
+        <a href="#feedback">Feedback</a>
+    </nav>
+    
+
+    <!-- Main Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+
+        <!-- Product Information Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price (INR)</th>
+                    <th>Category</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Handcrafted Clay Pot</td>
+                    <td>500</td>
+                    <td>Home Decor</td>
+                    <td>In Stock</td>
+                </tr>
+                <tr>
+                    <td>Artisan Coconut Shell Bowl</td>
+                    <td>350</td>
+                    <td>Kitchenware</td>
+                    <td>Out of Stock</td>
+                </tr>
+                <tr>
+                    <td>Sandalwood Candle Holder</td>
+                    <td>700</td>
+                    <td>Decor</td>
+                    <td>In Stock</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Product Details with Description List -->
+        <div>
+            <h3>Product Details</h3>
+            <dl>
+                <dt>Handcrafted Clay Pot</dt>
+                <dd>A beautifully crafted clay pot, perfect for adding a rustic charm to your home decor.</dd> <br>
+                <dt>Artisan Coconut Shell Bowl</dt>
+                <dd>Eco-friendly coconut shell bowl, ideal for serving snacks or as a decorative item.</dd><br>
+                <dt>Sandalwood Candle Holder</dt>
+                <dd>Aromatic sandalwood candle holder, adding warmth and ambiance to any space.</dd><br>
+            </dl>
+        </div>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media">
+        <h2>Media Showcase</h2>
+        <!-- Product Images -->
+        <P>Product A</P><BR><img src="./rec/Unglazed Clay Handi_Clay Pot for Cooking & Serving with Lid(2_5L, Red)(Swadeshi Blessings Exclusive Range)(Curd Pot_ Curry Pot_ Biryani Pot).jpeg" height="300" width="300" alt="Product A"><br>
+            <P>Product B</P><BR><img src="./rec/The Best Hearth & Hand With Magnolia Candles at Target.jpeg" height="300" width="300" alt="Product B"><br>
+                <P>Product C</P><BR><img src="./rec/Coconut Bowl with Spoon.jpeg" height="300" width="300" alt="Product C">
+        <br>
+        <br>
+        <br>
+        <H1>Watch our showcase video:</H1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kwg2gsrvISI?si=obY8vYd6R7XGhoro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         
+      </section>
+   
+
+
+    <!-- Feedback Form -->
+    <section id="feedback">
+        <h2>Feedback Form</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label>Rating (1-10):</label><br>
+            <input type="radio" name="rating" value="1"> 1
+            <input type="radio" name="rating" value="2"> 2
+            <input type="radio" name="rating" value="3"> 3
+            <input type="radio" name="rating" value="4"> 4
+            <input type="radio" name="rating" value="5"> 5
+            <input type="radio" name="rating" value="6"> 6
+            <input type="radio" name="rating" value="7"> 7
+            <input type="radio" name="rating" value="8"> 8
+            <input type="radio" name="rating" value="9"> 9
+            <input type="radio" name="rating" value="10"> 10<br><br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4"></textarea><br><br>
+
+            <input type="submit" value="Submit Feedback">
+        </form>
+    </section>
+
+    <!-- Footer with Social Media Links -->
+    <footer>
+        <p>Follow us on social media:</p>
+        <a href="https://facebook.com" target="_blank">Facebook</a> | 
+        <a href="https://instagram.com" target="_blank">Instagram</a> | 
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+    </footer>
+
+</body>
+</html>
+
